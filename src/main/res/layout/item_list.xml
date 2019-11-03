@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/list_item_title"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:focusable="false"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:text="123123"
+            />
+        <TextView
+            android:id="@+id/list_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#123"
+            android:textSize="15sp"
+            android:gravity="start|bottom"
+            android:focusable="false"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:text="112321312"
+            />
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp">
+       <TextView
+           android:id="@+id/list_item_body"
+           android:layout_width="200dp"
+           android:layout_height="20dp"
+           android:textSize="16sp"
+           android:layout_marginBottom="10dp"
+           android:textColor="#333333"
+           android:focusable="false"
+           android:maxLines="1"
+           android:maxLength="30"
+           android:text="213321"
+
+
+           />
+
+       <TextView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:background="#333333"
+           android:id="@+id/list_item_style">
+
+       </TextView>
+
+   </LinearLayout>
+
+
+</LinearLayout>

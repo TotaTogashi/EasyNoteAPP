@@ -1,0 +1,70 @@
+
+    <resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="login_txt1">
+            <item name="android:textSize">40dp</item>
+            <item name="android:textColor">#5eb7b7</item>
+            <item name="android:gravity">center</item>
+        </style>
+
+        <style name="login_txt2">
+            <item name="android:textColor">#333333</item>
+            <item name="android:textSize">18dp</item>
+            <item name="android:layout_marginLeft">40dp</item>
+        </style>
+
+        <style name="login_edit">
+            <item name="android:layout_marginLeft">10dp</item>
+            <item name="android:width">240dp</item>
+        </style>
+
+        <style name="login_button">
+            <item name="android:layout_marginRight">30dp</item>
+            <item name="android:layout_marginLeft">30dp</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textSize">16dp</item>
+        </style>
+
+        <style name="intro1">
+            <item name="android:layout_marginRight">30dp</item>
+            <item name="android:layout_marginLeft">30dp</item>
+            <item name="android:textSize">14dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:layout_marginTop">60dp</item>
+        </style>
+
+        <style name="Main_User">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textColor">#333333</item>
+        </style>
+
+        <style name="Main_Intro">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textColor">#5eb7b7</item>
+        </style>
+
+        <style name="Main_ADD_Button">
+            <item name="android:background">#5eb7b7</item>
+            <item name="android:textColor">#ffffff</item>
+            <item name="android:layout_alignParentLeft">true</item>
+        </style>
+
+        <style name="Main_UserUpdate_Button">
+            <item name="android:background">#fc7978</item>
+            <item name="android:textColor">#ffffff</item>
+            <item name="android:layout_alignParentRight">true</item>
+
+        </style>
+
+
+    </resources>
+
