@@ -13,5 +13,9 @@
 2.下载本项目src文件  
 3.覆盖到\EasyNote\app中  
 4.打开项目，即可使用  
-  
+
+## Demo试用
+1.下载EasyNote.apk
+2.传送到手机/AVD进行试用
+
 `MIT协议，欢迎使用` 
